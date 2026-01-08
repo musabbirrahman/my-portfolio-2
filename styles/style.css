@@ -178,3 +178,94 @@ nav .menu a{
     line-height: 28px;
     color: #757575;
 }
+#resume{
+    padding-top: 130px;
+}
+.resume-heading h2{
+    font-size: 45px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 113px;
+    
+}
+#resume .resume-container{
+    display: flex;
+    gap: 71px;
+    width: 71%;
+    max-width: 1140px;
+    align-items: center;
+    margin: 0 auto;
+}
+#resume .resume-container .section-title{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+#resume .resume-container .resume-card{
+    max-width: 511px;
+}
+
+#resume .resume-container .resume-card h3{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+#resume .resume-container .resume-card h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+}
+#resume .resume-container .resume-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+hr{
+    margin: 30px 0;
+}
+#resume .center{
+    text-align: center;
+}
+footer{
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 0;
+}
+.footer-container{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 117px;
+}
+.footer-container h3{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer-container .icons{
+    gap: 24px;
+    display: flex;
+}
+.footer-container .footer-info{
+    max-width: 562px;
+    
+}
+.footer-container form input[type="text"] , .footer-container form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+
+    color: #757575;
+}
